@@ -1,14 +1,17 @@
-//import './App.css';
-import SelectBox from './components/SelectBox';
-import { WeatherProvider } from './context/WeaterContext';
-;
+import React from 'react';
+import './App.css';
+
+import Header from "./components/Header";
+import List from './components/List';
 
 function App() {
   return (
-    <WeatherProvider>
-      <SelectBox />
-      adsadas
-    </WeatherProvider>
+  <div className="App">
+    <Header />
+    <List />
+    asdasdasd
+    <div>dasdasfeadvgdeas vx</div>
+  </div>
   );
 }
 

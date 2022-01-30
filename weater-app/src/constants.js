@@ -1,4 +1,4 @@
-const CityList = {
+export const cities = {
 	city: [
 		{
 			id: 1,
@@ -650,5 +650,3 @@ const CityList = {
 		},
 	],
 };
-
-export default CityList;
