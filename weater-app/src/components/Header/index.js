@@ -1,12 +1,23 @@
-import React from 'react';
+import {useContext} from 'react';
+
 import { cities } from '../../constants';
 
+import WeatherContext from '../../context/WeatherContext';
+
 function Header() {
-  return <div>
-      <select style={{padding: 10, marginTop: 100, flex: 1}}>
-          {cities.map((city) => <option key = {city.id}>{city.name}</option>)}
+  const data = useContext(WeatherContext);
+  console.log(data);
+  return (
+    <div>
+      <select style={{ padding: 10 }}>
+          {cities.map((city) => (
+          <option key = {city.id} value={city.id}>
+            {city.name}
+          </option>
+        ))}
       </select>
-  </div>;
+    </div>
+  );
 }
 
 export default Header;

@@ -1,17 +1,18 @@
-import React from 'react';
 import './App.css';
 
-import Header from "./components/Header";
+import Header from './components/Header';
 import List from './components/List';
+
+import { WeatherProvider } from './context/WeatherContext';
 
 function App() {
   return (
-  <div className="App">
-    <Header />
-    <List />
-    asdasdasd
-    <div>dasdasfeadvgdeas vx</div>
-  </div>
+  <WeatherProvider>
+    <div className="App">
+      <Header />
+      <List />
+    </div>
+  </WeatherProvider>
   );
 }
 
