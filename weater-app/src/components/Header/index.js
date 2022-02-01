@@ -6,7 +6,7 @@ import WeatherContext from '../../context/WeatherContext';
 
 function Header() {
   const data = useContext(WeatherContext);
-  console.log(data);
+  
   return (
     <div>
       <select style={{ padding: 10 }}>
