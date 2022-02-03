@@ -3,3 +3,18 @@
     border: solid 1px #ddd;
     margin: 5px;
 }
+
+.dayName {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.temp {
+    text-align: center;
+}
+
+.temp span {
+    margin: 0 5px;
+    font-weight: 500;
+}

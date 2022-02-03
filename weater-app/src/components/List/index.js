@@ -13,7 +13,7 @@ function List() {
     
     <div className={styles.ListContainer}>
       {weather?.list.map((day, index) => (
-        <Card key={index}/>
+        <Card key={index} day={day}/>
       ))}
     </div>
     
