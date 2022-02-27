@@ -1,4 +1,5 @@
-# voting-app
+# oyluyoruz-app
+> **Demo: https://oyluyoruz.netlify.app/**
 
 Bu proje, Kodluyoruz'un düzenlediği 84. `İstanbul Earlybird Front-End Talent Bootcamp`'ı kapsamında ders içinde geliştirlmiş bir [strawpoll.me](https://www.strawpoll.me/) clone'udur. 
 

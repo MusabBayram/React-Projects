@@ -11,12 +11,12 @@ function Questions() {
 	if (loading) {
 		return <div>Loading...</div>;
 	}
-
+	
 	return (
 		<div>
 			<h2>Questions</h2>
 
-			{data.questions.map((q, i) => (
+			{data.questions?.map((q, i) => (
 				<div key={i}>
 					<Link to={`/q/${q.id}`}>{q.title}</Link>
 				</div>
