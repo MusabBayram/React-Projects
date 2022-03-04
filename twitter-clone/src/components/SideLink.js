@@ -22,7 +22,6 @@ function SideLink({ name, Icon, active, onMenuItemClick }) {
                     </span>
                 </div>
             </div>
-            
         </a>
     </li>
   )
