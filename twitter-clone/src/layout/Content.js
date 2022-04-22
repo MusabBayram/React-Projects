@@ -23,8 +23,8 @@ const Content = () => {
         <PopulerIcon className="w-6 h-6 text-primary-base" />
       </header>
       <div className="flex space-x-4 px-4 py-3">
-        <img
-          src="https://pbs.twimg.com/profile_images/1373343596150132738/j8K08iHu_400x400.jpg"
+      <img
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQGyfMTRI4kwhg/profile-displayphoto-shrink_100_100/0/1625836952140?e=1653523200&v=beta&t=bMUaeKmRE8vfsR-1-bfYbVW95bChiidmVaB1V99yeVc"
           alt="Profile"
           className="w-11 h-11 rounded-full"
         />

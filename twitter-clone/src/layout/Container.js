@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function Container( {children} ) {
-  return (
-    <div className="flex min-h-screen max-w-7xl mx-auto border">{children}</div>
-  )
-}
+const Container = ({ children }) => {
+  return <div className="flex min-h-screen max-w-7xl mx-auto ">{children}</div>;
+};
 
-export default Container
+export default Container;
